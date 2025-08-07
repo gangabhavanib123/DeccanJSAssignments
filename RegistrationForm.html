@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    
+</head>
+<body>
+    <form action="" autocomplete="off"  method="get">
+        <fieldset>
+            <legend align="center" > Job Registration Form</legend>
+        <label for="">First Name* :</label>
+        <input type="text" name="fname" placeholder="Enter first name" pattern="[A-Z a-z]{3-9}" required>
+        <br><br>
+
+        <label for="">Middle Name :</label>
+        <input type="text" name="mname"  placeholder="Enter Middle name" >
+         <br><br>
+
+        <label for="">Last Name* :</label>
+        <input type="text" name="lname" placeholder="Enter last name" required>
+        <br><br>
+
+        <label for=""> Email* :</label>
+        <input type="email" placeholder="abcd123@gmail.com" required>
+        <br><br>
+
+        <label for=""> Phone Number* :</label>
+        <input type="tel" placeholder=" Phone number" pattern="[0-9]{10}" required>
+        <br><br>
+
+        <label>DOB:</label>
+        <input type="date">
+        <br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" name="gender" value="male">
+        <label>Male</label><br>
+        
+        <input type="radio" name="gender" value="female">
+        <label>Female</label><br>
+
+        <input type="radio" name="gender" value="other">
+        <label>Other</label><br><br>
+       
+        <label for=""> Resume :</label>
+        <input type="file" accept=".jpg, .pdf" required>
+        <br><br>
+
+        <label for=""> LinkedIn :</label>
+        <input type="url" >
+        <br><br>
+
+
+        <button>submit</button>
+        <button>reset</button>
+       
+        </fieldset>
+    </form>
+</body>
+</html>

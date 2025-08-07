@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 500px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px grey;
+    background-color: aqua;
+    margin: 150px auto;
+    font-family: sans-serif;
+    font-size: 20px
+}
+div h1{
+    color:deeppink;
+    margin-left:100px;
+    text-shadow: 0 0 2px;
+    padding: 50px;
+}
+label{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+#marks{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+button{
+    margin:40px 0 0 300px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+button:hover{
+   color: white;
+   background-color:black ;
+}
+
+p{
+    margin:40px 0 0 170px;
+}

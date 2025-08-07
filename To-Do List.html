@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./To-Do List.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2>To-Do List <img src="https://tse4.mm.bing.net/th/id/OIP.75QV7SzR942bUAiGAiWveAHaHa?pid=Api&P=0&h=180"
+                    alt="" height="30px" width="30px"> </h2>
+            <div class="row">
+                <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Add your task" id="input-box">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <span id="error-msg"></span>
+            <div id="status">
+                <p><i class="fa-solid fa-square-check" style="color: green;  margin-bottom: 10px;"></i> Completed tasks: <span id="completed">0</span></p>
+                <p><i class="fa-solid fa-alarm-clock" style="color: red;"></i> Remaining tasks: <span id="remaining">0</span></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./To-Do List.js"></script>
+</body>
+
+</html>
